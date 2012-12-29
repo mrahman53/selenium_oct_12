@@ -34,7 +34,7 @@ public class TestCnn {
 	@After   //clean up test
 	public void tearDown() throws Exception {
 		browser.stop();
-		//browser.close();
+		browser.close();
 		
 	}
 
