@@ -26,7 +26,8 @@ public class TestCnn {
 	@Test   //all the test steps
 	public void test() {
 		browser.open("/");
-		
+		//added
+		browser.getTitle();
 		
 	}
 
@@ -35,6 +36,7 @@ public class TestCnn {
 	public void tearDown() throws Exception {
 		browser.stop();
 		browser.close();
+		
 		
 	}
 
